@@ -8,7 +8,8 @@ var express = require('express');        // call express
 var app = express();                 // define our app using express
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://root:root@ds040837.mlab.com:40837/jokes_nmo_db', { useMongoClient: true });
+//mongoose.connect('mongodb://root:root@ds040837.mlab.com:40837/jokes_nmo_db', { useMongoClient: true });
+mongoose.connect('mongodb://HamzaConnection:5800-hlm@ds133127.mlab.com:33127/react_jokes', { useMongoClient: true });
 var Joke = require('./app/models/jokes');
 
 // configure app to use bodyParser()
