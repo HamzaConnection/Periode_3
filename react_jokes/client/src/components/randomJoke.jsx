@@ -53,7 +53,7 @@ export default class RandomJoke extends Component {
 				</header>
 				<div>
 					<p>But first, here's a link back to the <Link to="/">front page</Link></p>
-					<Joke joke={randJoke} />
+					<Joke joke={randJoke} /> 
 				</div>
 			</div>
 		);

@@ -38,7 +38,8 @@ export default class Jokes extends Component {
 	render() {
 		const { jokes } = this.state;
 		const jokesList = jokes.map((joke, i) => <li key={i}>{joke.joke}</li>);
-		// const jokesList = jokes.map((joke, i) => <Joke key={i} joke={joke.joke} />);
+		
+
 
 		return (
 			<div className='App'>

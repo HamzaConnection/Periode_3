@@ -33,7 +33,7 @@ export default class NameForm extends React.Component {
 }
 
 ReactDOM.render(
-  <NameForm  />,
+  <NameForm  /> ,
   document.getElementById('root')
 );
 
