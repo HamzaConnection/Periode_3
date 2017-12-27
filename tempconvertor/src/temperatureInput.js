@@ -14,13 +14,16 @@ function toFahrenheit(celsius) {
   return (celsius * 9 / 5) + 32;
 }
 
-function tryConvert(temperature, convert) {
+function tryConvert(temperature, convert) { 
+  
+  
+
   const input = parseFloat(temperature);
   if (Number.isNaN(input)) {
     return '';
   }
   const output = convert(input);
-  const rounded = Math.round(output * 1000) / 1000;
+  const rounded = Math.round(output * 1000) / 1000; //  keeps the output rounded to the third decimal place
   return rounded.toString();
 }
 
